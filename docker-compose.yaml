@@ -1,0 +1,7 @@
+app:
+  build: .
+  volumes:
+    - ".:/go/src/app"
+  working_dir: /go/src/app
+  ports:
+    - "80:8080"

@@ -1,0 +1,4 @@
+package: github.com/yudai524/hello-golang
+import:
+- package: github.com/gin-gonic/gin
+- package: gopkg.in/godo.v2
